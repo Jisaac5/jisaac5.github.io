@@ -7,8 +7,12 @@ html{
     background-color: lightgray;
 }
 
+html, body{
+    height: 100%;
+}
+
 .mainpage{
-    background-image: url("samplebg.jpg");
+    background-image: url("samplebg.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -22,28 +26,30 @@ html{
 header{
     color: white;
     background-color: black;
-    height: 10%;
-    margin-bottom: 10px;
+    height: 5vh;
+    /* margin-bottom: 10px; */
     padding: 10px 10px 10px 10px;
     display:flex;
     align-items: center;
     flex-direction: row;
     gap: 20px;
+    
+    background-color: white;
+    border-bottom: lightgray solid 3px;
 }
-
-header a {
-    color: white;
+.globalHeader h1, .globalHeader a {
+    color: black;
 }
 
 .content{
     background-color: rgba(255, 255, 255, 0.80);
     text-align: center;
     margin: auto auto;
-    margin-bottom: 10px;
-    width: 80%;
-    height: 80%;
-    padding: 10px 10px 10px 10px;
-    border: black solid 1px;
+    /* margin-bottom: 10px; */
+    /* width: 100vw; */
+    /* height: 100vw; */
+    padding: 30px 30px 30px 30px;
+    /* border: black solid 1px; */
     text-wrap: wrap;
 }
 
@@ -52,6 +58,52 @@ header a {
 }
 
 p, a, h1{
-    font-family:arial;
+    font-family:Arial, Helvetica, sans-serif;
     word-break: break-all;
+}
+
+.content p, .content a, .content h1{
+    font-family:'Times New Roman', Times, serif;
+    word-break: break-all;
+}
+
+.p1subContent1{
+    background-image: url(samplebg3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: black solid 1px;
+    height: 95vh;
+
+    color: white;
+    text-align: left;
+}
+
+/* .p1subContent1 h1{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.p1subContent2{
+    background-image: url(samplebg4.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    color: white;
+    text-align: right;
+}
+
+.p2subContent1{
+    background-image: url(samplebg5.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    color: white;
+    text-align: left;
+}
+
+.content p, .content h1 {
+    display: inline-block;
+    background-color : rgba(255, 255, 255, 0.10);
+    /* background-color: yellow; */
 }
