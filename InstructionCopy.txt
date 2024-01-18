@@ -1,8 +1,9 @@
 [This is a copy of the instructions from BBL]
 
 TO-DO Summary:
-- Make site
+- Make site 
 - Implement:
+    - Creativity
     - HTML Tags
     - Various CSS selectors
     - Various CSS styles
