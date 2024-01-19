@@ -45,14 +45,17 @@ html, body{
 }
 
 .content{
-    background-color: rgba(255, 255, 255, 0.80);
+    background-color: darkgray;
     /* text-align: center; */
     /* margin: auto auto; */
     /* margin-bottom: 10px; */
     /* width: 100vw; */
     height: 90vh;
     padding: 5vh 20px 5vh 20px;
-    /* border: black solid 1px; */
+    
+    color: white;
+
+    border-bottom: black solid 1px;
     
     background-size: cover;
     background-attachment: fixed;
@@ -76,9 +79,7 @@ p, a, h1{
 
 .p1subContent1{
     background-image: url("assets/samplebg3.jpeg");
-    border-bottom: black solid 1px;
-
-    color: white;
+    
     text-align: center;
 
     font-size: xx-large;
@@ -92,9 +93,6 @@ p, a, h1{
 .p1subContent2{
     background-image: url("assets/samplebg4.jpeg");
 
-    color: white;
-    /* text-align: right; */
-
     font-size: xx-large;
 
     display:flex;
@@ -107,11 +105,7 @@ p, a, h1{
 
 .p2subContent1{
     background-image: url("assets/samplebg5.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-
-    color: white;
+    
     text-align: left;
 }
 
