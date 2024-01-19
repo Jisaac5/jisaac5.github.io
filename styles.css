@@ -50,10 +50,12 @@ html, body{
     /* margin: auto auto; */
     /* margin-bottom: 10px; */
     /* width: 100vw; */
-    /* height: 100vw; */
+    height: 90vh;
     padding: 5vh 20px 5vh 20px;
     /* border: black solid 1px; */
-    text-wrap: wrap;
+    
+    background-size: cover;
+    background-attachment: fixed;
 
     
 }
@@ -74,10 +76,7 @@ p, a, h1{
 
 .p1subContent1{
     background-image: url("assets/samplebg3.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
     border-bottom: black solid 1px;
-    height: 90vh;
 
     color: white;
     text-align: center;
@@ -90,15 +89,8 @@ p, a, h1{
     gap: 30px;
 }
 
-/* .p1subContent1 h1{
-    font-family: 'Times New Roman', Times, serif;
-} */
-
 .p1subContent2{
     background-image: url("assets/samplebg4.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
 
     color: white;
     /* text-align: right; */
@@ -109,6 +101,8 @@ p, a, h1{
     justify-content: right;
     align-items: center;
     gap: 20px;
+
+    
 }
 
 .p2subContent1{
