@@ -52,7 +52,7 @@ html, body{
     /* width: 100vw; */
     height: 90vh;
     padding: 5vh 20px 5vh 20px;
-    
+
     color: white;
 
     border-bottom: black solid 1px;
@@ -60,12 +60,15 @@ html, body{
     background-size: cover;
     background-attachment: fixed;
 
-    
+    /* display: inline-block; */
+    /* background-color : rgba(255, 255, 255, 0.10); */
+    /* background-color: yellow; */
+    text-shadow: 3px 3px 3px black;
 }
 
-.page2 .content{
+/* .page2 .content{
     height:2000px;
-}
+} */
 
 p, a, h1{
     font-family:Arial, Helvetica, sans-serif;
@@ -78,7 +81,55 @@ p, a, h1{
 }
 
 .p1subContent1{
-    background-image: url("assets/samplebg3.jpeg");
+    background-image: url("bg/samplebg.jpeg");
+    
+    
+    text-align: center;
+    font-size: xx-large;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.p1subContent2{
+    background-image: url("bg/samplebg2.jpeg");
+
+    font-size: xx-large;
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.p1subContent3{
+    background-image: url("bg/samplebg3.jpeg");
+
+    padding-left: 40px;
+    padding-right: 40px;
+    /* height: 95vh; */
+
+    font-size: larger;
+    text-align:center;
+
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 5vw;
+}
+
+.univDiv{
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 85%;
+    padding: 10px 10px 10px 10px;
+}
+
+.p2subContent1{
+    background-image: url("bg/samplebg4.jpeg");
     
     text-align: center;
 
@@ -88,30 +139,13 @@ p, a, h1{
     justify-content: center;
     align-items: center;
     gap: 30px;
-}
 
-.p1subContent2{
-    background-image: url("assets/samplebg4.jpeg");
-
-    font-size: xx-large;
-
-    display:flex;
-    justify-content: right;
-    align-items: center;
-    gap: 20px;
-
-    
-}
-
-.p2subContent1{
-    background-image: url("assets/samplebg5.jpeg");
-    
     text-align: left;
 }
 
-.content p, .content h1 {
+/* .content p, .content h1 {
     display: inline-block;
     /* background-color : rgba(255, 255, 255, 0.10); */
-    /* background-color: yellow; */
+    /* background-color: yellow;
     text-shadow: black 3px 3px;
-}
+} */
