@@ -149,3 +149,22 @@ p, a, h1{
     /* background-color: yellow;
     text-shadow: black 3px 3px;
 } */
+
+.videoContainer {
+    position: relative;
+    overflow: hidden;
+    width: 50vw;
+    padding-top: 60vh;
+    /* height:90px;
+    width:90px; */
+  }
+
+.ytEmbed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
