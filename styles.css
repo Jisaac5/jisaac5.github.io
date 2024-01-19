@@ -51,9 +51,8 @@ header{
     padding: 30px 30px 30px 30px;
     /* border: black solid 1px; */
     text-wrap: wrap;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+    
 }
 
 .page2 .content{
@@ -79,9 +78,13 @@ p, a, h1{
 
     color: white;
     /* text-align: left; */
-    justify-content: left;
 
     font-size: xx-large;
+
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
 }
 
 /* .p1subContent1 h1{
@@ -96,9 +99,13 @@ p, a, h1{
 
     color: white;
     /* text-align: right; */
-    justify-content: right;
 
     font-size: xx-large;
+
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
 }
 
 .p2subContent1{
