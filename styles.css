@@ -25,7 +25,9 @@ html, body{
 
 .globalHeader{
     color: white;
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
+    /* background-image: linear-gradient(slateblue, darkslateblue); */
+    background-image: linear-gradient(darkgray, slategray);
     width: 100%;
     height: 5vh;
     /* margin-bottom: 10px; */
@@ -36,13 +38,14 @@ html, body{
     gap: 20px;
     
     /* background-color: white; */
-    border-bottom: black solid 1px;
+    border: black solid 1px;
 
     position: fixed;
 }
 .globalHeader h1, .globalHeader a {
     color: white;
     text-decoration: none;
+    text-shadow: 3px 3px 3px black;
 }
 
 .content{
@@ -133,9 +136,9 @@ p, a, h1{
 
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .univDiv{
@@ -145,7 +148,7 @@ p, a, h1{
 
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5vh;
 
@@ -202,9 +205,9 @@ p, a, h1{
     border-radius: 50%;
 }
 
-.univSite{
+.univSite, .socialSites{
     border: solid 1px black;
-    padding: 5px 5px 5px 5px;
+    padding: 0.3em 0.3em 0.3em 0.3em ;
 
     background-color:darkslateblue;
 
@@ -213,9 +216,21 @@ p, a, h1{
     text-shadow: 0 0 0;
 }
 
-.univSite a{
+.univSite a, .socialSites a{
     color: white;
     text-decoration: none;
     height: 100%;
     width: 100%;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#githubLogo{
+    height: 1em;
+    width: 1em;
 }
