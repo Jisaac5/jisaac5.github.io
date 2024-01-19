@@ -2,7 +2,7 @@
     font-family:'Times New Roman', Times, serif;
 }
 
-.p1subContent1{
+.subContent1{
     background-image: url("bg/samplebg.jpeg");
     
     
@@ -16,7 +16,7 @@
     gap: 30px;
 }
 
-.p1subContent2{
+.subContent2{
     background-image: url("bg/samplebg2.jpeg");
 
     font-size: xx-large;
@@ -27,7 +27,7 @@
     gap: 20px;
 }
 
-.p1subContent3{
+.subContent3{
     background-image: url("bg/samplebg3.jpeg");
 
     /* padding: 100px 40px 60px 40px; */
@@ -45,7 +45,7 @@
     gap: 5vw;
 }
 
-.p1subContent4{
+.subContent4{
     background-image: url("bg/samplebg4.jpeg");
 
     height: 85vh;
@@ -108,7 +108,7 @@
     border-radius: 50%;
 }
 
-.univSite, .socialSites{
+/* .univSite, .socialSites{
     border: solid 1px black;
     padding: 0.3em 0.3em 0.3em 0.3em ;
 
@@ -117,6 +117,12 @@
     font-size: larger;
 
     text-shadow: 0 0 0;
+
+    transition: background-color 0.3s linear;
+} */
+
+/* .univSite:hover, .socialSites:hover{
+    background-color: navy;
 }
 
 .univSite a, .socialSites a{
@@ -124,7 +130,7 @@
     text-decoration: none;
     height: 100%;
     width: 100%;
-}
+} */
 
 .socials{
     display: flex;

@@ -17,13 +17,13 @@ html, body{
     /* background-image: linear-gradient(slateblue, darkslateblue); */
     background-image: linear-gradient(darkgray, slategray);
     width: 100%;
-    height: 5vh;
+    height: 2.5vh;
     /* margin-bottom: 10px; */
-    padding: 10px 10px 10px 10px;
+    padding: 1.25vh 10px 1.25vh 10px;
     display:flex;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 5%;
     
     /* background-color: white; */
     border: black solid 1px;
@@ -39,6 +39,17 @@ html, body{
     font-family:Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     word-break: break-word;
+}
+
+.globalHeader a{
+    transition: color linear 0.3s;
+
+    font-weight:bold;
+    font-size:x-large;
+}
+
+.globalHeader a:hover{
+    color: lightblue;
 }
 
 .content{
@@ -61,4 +72,28 @@ html, body{
     /* background-color : rgba(255, 255, 255, 0.10); */
     /* background-color: yellow; */
     text-shadow: 3px 3px 3px black;
+}
+
+.siteBtn {
+    border: solid 1px black;
+    padding: 0.3em 0.3em 0.3em 0.3em ;
+
+    background-color:darkslateblue;
+
+    font-size: larger;
+
+    text-shadow: 0 0 0;
+
+    transition: background-color 0.3s linear;
+}
+
+.siteBtn:hover{
+    background-color: navy;
+}
+
+.siteBtn a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
 }
