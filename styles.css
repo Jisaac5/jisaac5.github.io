@@ -12,13 +12,13 @@ html, body{
 }
 
 .mainpage{
-    background-image: url("samplebg.jpeg");
+    background-image: url("assets/samplebg.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 .page2{
-    background-image: url("samplebg2.jpeg");
+    background-image: url("assets/samplebg2.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -51,6 +51,9 @@ header{
     padding: 30px 30px 30px 30px;
     /* border: black solid 1px; */
     text-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page2 .content{
@@ -68,14 +71,17 @@ p, a, h1{
 }
 
 .p1subContent1{
-    background-image: url(samplebg3.jpeg);
+    background-image: url("assets/samplebg3.jpeg");
     background-size: cover;
     background-attachment: fixed;
     border-bottom: black solid 1px;
-    height: 95vh;
+    height: 90vh;
 
     color: white;
-    text-align: left;
+    /* text-align: left; */
+    justify-content: left;
+
+    font-size: xx-large;
 }
 
 /* .p1subContent1 h1{
@@ -83,17 +89,20 @@ p, a, h1{
 } */
 
 .p1subContent2{
-    background-image: url(samplebg4.jpeg);
+    background-image: url("assets/samplebg4.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 95vh;
 
     color: white;
-    text-align: right;
+    /* text-align: right; */
+    justify-content: right;
+
+    font-size: xx-large;
 }
 
 .p2subContent1{
-    background-image: url(samplebg5.jpeg);
+    background-image: url("assets/samplebg5.jpeg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -104,6 +113,7 @@ p, a, h1{
 
 .content p, .content h1 {
     display: inline-block;
-    background-color : rgba(255, 255, 255, 0.10);
+    /* background-color : rgba(255, 255, 255, 0.10); */
     /* background-color: yellow; */
+    text-shadow: black 3px 3px;
 }
