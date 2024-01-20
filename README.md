@@ -1,4 +1,4 @@
-# Jisaac5.github.io
+# jisaac5.github.io
 - How your website accomplished each item in the criteria.
     - Where could the concepts discussed in class be seen in your website?
         - HTML are all over my website (or, rather, they *are* the website). CSS is seen as the designing on the elements. I didn't end up using JavaScript.
